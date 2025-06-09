@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+    <link rel="styleSheet" href="./index.css"><link>
+</head>
+<body>
+    <h1>Top of the root</h1>
+    <div id = "root">
+        <h1>Inside the Root</h1> // This will be replaced by React DOM
+    </div>
+    <h1>Bottom of the root</h1>
+    <!-- <script>
+        const heading = document.createElement('h1');
+        heading.innerHTML = "Namste JS";
+        const root = document.getElementById('root');
+        root.appendChild(heading);
+    </script> -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> 
+    <!-- // React Code -->
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> 
+    <!-- // React DOM Code
+    // The above two scripts are used to load React and ReactDOM libraries from a CDN.And also before using React and ReactDOM, we need to include these scripts in our HTML file. -->
+    <script src="./App.js"></script>
+</body>
+</html>
