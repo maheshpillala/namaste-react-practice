@@ -1,0 +1,23 @@
+{
+  "name": "namaste-react-practice",
+  "version": "1.0.0",
+  "description": "Namaste React",
+  "homepage": "https://github.com/maheshpillala/namaste-react-practice#readme",
+  "bugs": {
+    "url": "https://github.com/maheshpillala/namaste-react-practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maheshpillala/namaste-react-practice.git"
+  },
+  "license": "ISC",
+  "author": "Mahesh Pillala",
+  "type": "commonjs",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "parcel": "^2.15.2"
+  }
+}
